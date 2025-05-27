@@ -6,13 +6,17 @@
 Em seguida, imprima o segundo elemento da tupla.'''
 print('tupla cores')
 #escreva o código aqui
+cores = ("vermelho","azul","verde")
+print(cores[1])
 
 '''2 - Dada a tupla `numeros = (10, 20, 30, 40, 50)`, acesse e imprima o terceiro elemento.'''
 #escreva o código aqui
 
+
 '''3 - Crie um conjunto chamado `frutas` com os elementos `'maçã'`, `'banana'`, `'laranja'`, e `'uva'`.
 Em seguida, adicione o elemento `'abacaxi'` ao conjunto.'''
 #escreva o código aqui
+
 
 '''4 - Dado os conjuntos `A = {1, 2, 3, 4}` e `B = {3, 4, 5, 6}`, 
 imprima a **união** e a **interseção** entre os dois conjuntos.'''
@@ -21,10 +25,9 @@ imprima a **união** e a **interseção** entre os dois conjuntos.'''
 '''5 - Escreva uma função `contar_unicos(lista)` que receba uma lista e retorne a quantidade de elementos únicos
 utilizando conjuntos.
 Exemplo: contar_unicos(['deyverson', 'hulk', 'menin', 'menin', bernard]) deve retornar 4'''
-def contar_unicos(lista):
-  print('contar_unicos(lista)')
-  #remova o print acima e escreva o código aqui
+#remova o print acima e escreva o código aqui
 #não esqueça de chamar a função (com argumentos, se necessário) aqui abaixo!
+
 
 '''6. Convertendo Lista para Tupla:
 Escreva uma função `converter_para_tupla(lista)` que receba uma lista e retorne uma tupla com
