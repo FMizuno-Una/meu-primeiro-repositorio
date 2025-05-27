@@ -32,7 +32,15 @@ utilizando conjuntos.
 Exemplo: contar_unicos(['deyverson', 'hulk', 'menin', 'menin', bernard]) deve retornar 4'''
 #remova o print acima e escreva o código aqui
 #não esqueça de chamar a função (com argumentos, se necessário) aqui abaixo!
+def contar_unicos(lista):
+   contador = []
+   for i in range(0,len(lista)):
+      if lista[i] not in contador:
+         contador.append(lista[i])
+   return len(contador)   
 
+nomes = ['jose','francisco','jose','maria','maria','antonio']
+print(contar_unicos(nomes))
 
 '''6. Convertendo Lista para Tupla:
 Escreva uma função `converter_para_tupla(lista)` que receba uma lista e retorne uma tupla com
