@@ -17,6 +17,11 @@ print(numeros[2])
 '''3 - Crie um conjunto chamado `frutas` com os elementos `'maçã'`, `'banana'`, `'laranja'`, e `'uva'`.
 Em seguida, adicione o elemento `'abacaxi'` ao conjunto.'''
 #escreva o código aqui
+frutas = ("maçã","banana","laranja","uva")
+lista = list(frutas)
+lista.append("abacaxi")
+frutas = tuple(lista)
+print(frutas)
 
 '''4 - Dado os conjuntos `A = {1, 2, 3, 4}` e `B = {3, 4, 5, 6}`, 
 imprima a **união** e a **interseção** entre os dois conjuntos.'''
